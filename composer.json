@@ -1,5 +1,5 @@
 {
-    "name": "stechstudio/laravel-vfs-adapter",
+    "name": "timovos/laravel-vfs-adapter",
     "description": "Virtual Filesystem Storage Adapter for Laravel",
     "type": "library",
     "license": "MIT",
@@ -25,6 +25,10 @@
         {
             "name": "Bubba Hines",
             "email": "rob@stechstudio.com"
+        },
+        {
+            "name": "Timo Vos",
+            "email": "timo@alserdamedia.nl"
         }
     ],
     "config": {
