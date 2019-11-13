@@ -141,4 +141,17 @@ class VirtualFilesystemAdapter extends Local {
 
         unlink($file->getPathname());
     }
+
+    /**
+     * Just returns the file path
+     * 
+     * @param $path
+     * @param $expiration
+     * @param $options
+     * @return mixed
+     */
+    public function getTemporaryUrl($path, $expiration, $options)
+    {
+        return $path;
+    }
 }
